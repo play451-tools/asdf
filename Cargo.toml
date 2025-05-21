@@ -1,0 +1,10 @@
+[package]
+name = "asdf"
+version = "0.1.0"
+edition = "2025"
+authors = ["playstation451"]
+description = "command line tool that shows system info"
+license = "NONE"
+
+[dependencies]
+sysinfo = "0.35.1"
