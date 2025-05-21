@@ -1,10 +1,14 @@
 [package]
 name = "asdf"
 version = "0.1.0"
-edition = "2025"
+edition = "2021"
 authors = ["playstation451"]
 description = "command line tool that shows system info"
 license = "NONE"
 
 [dependencies]
+crossterm = "0.29.0"
+prettytable = "0.10.0"
+serde_json = "1.0.140"
 sysinfo = "0.35.1"
+system-info-lite = "0.1.1"
